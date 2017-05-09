@@ -1,0 +1,57 @@
+<div ng-controller="tableCtrl">
+
+    <div class="default"></div>
+    <div id="smartTable">
+        <table st-table="displayedCollection" st-safe-src="rowCollection" class="table table-striped">
+            <thead>
+            <tr>
+                <th st-sort="course">Course</th>
+                <th st-sort="students">Students</th>
+                <th st-sort="time">ScheduleTime</th>
+                <th st-sort="duration">Duration</th>
+                <th st-sort="desks">Desks</th>
+            </tr>
+            <!--<tr>-->
+                <!--<th colspan="5"><input st-search="" class="form-control" placeholder="global search ..." type="text"/></th>-->
+            <!--</tr>-->
+            </thead>
+            <tbody>
+            <tr ng-repeat="row in displayedCollection">
+
+                <td>{{row.course}}</td>
+                <td>{{row.students}}</td>
+                <td>{{row.time}}</td>
+                <td>{{row.duration}}</td>
+                <td>{{row.desks}}</td>
+                <td>
+                    <button type="button" ng-click="removeItem(row)" class="btn btn-sm btn-danger">
+                        <i class="glyphicon glyphicon-remove-circle">
+                        </i>
+                    </button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <button type="button" ng-click="addRandomItem(row)" class="btn btn-sm btn-success">
+                <i class="glyphicon glyphicon-plus">
+                </i> Add another Row
+            </button>
+        </div>
+        <div class="col-sm-4">
+            <button id="btnExport" class="btn btn-sm btn-success"><i class="glyphicon glyphicon-list-alt"></i> Export to xls</button>
+        </div>
+        <div class="col-sm-4">
+            <button id="btnImport" ng-click="importFromCSV(row)" class="btn btn-sm btn-success" ><i class="glyphicon glyphicon-search"></i> Import from CSV</button>
+            <input type="file" id="fileImport" name="excel[]" style=" visibility: hidden ; position: absolute" >  </input>
+
+        </div>
+    </div>
+    </div>
+    <div id="table_wrapper"style="position:relative">
+    <table class="table table-responsive table-striped table-bordered table-hover table-condensed">
+
+    </table>
+</div>

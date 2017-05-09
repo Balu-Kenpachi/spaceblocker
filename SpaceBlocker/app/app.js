@@ -141,7 +141,7 @@
 		$scope.timeSliderValue = data();
 		$scope.totaldesks=0;
 		getdesks();
-		fillSVGElements($scope.totaldesks);
+		//fillSVGElements($scope.totaldesks);
 
 
 
@@ -167,7 +167,7 @@
 				return value[0]===1025409600000;
 			});
 		});
-		$scope.$apply();
+		//$scope.$apply();
 
 		deskArrayGlobal=$scope.deskArray;
 
