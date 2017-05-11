@@ -1,57 +1,60 @@
-<div ng-controller="tableCtrl">
+<div ng-controller="tableCtrl" ng-init='init()'>
 
-    <div class="default"></div>
-    <div id="smartTable">
-        <table st-table="displayedCollection" st-safe-src="rowCollection" class="table table-striped">
-            <thead>
-            <tr>
-                <th st-sort="course">Course</th>
-                <th st-sort="students">Students</th>
-                <th st-sort="time">ScheduleTime</th>
-                <th st-sort="duration">Duration</th>
-                <th st-sort="desks">Desks</th>
-            </tr>
-            <!--<tr>-->
-                <!--<th colspan="5"><input st-search="" class="form-control" placeholder="global search ..." type="text"/></th>-->
-            <!--</tr>-->
-            </thead>
-            <tbody>
-            <tr ng-repeat="row in displayedCollection">
+    <!-- section for controls -->
+    <section class='controls text-right'>
+        <!-- <button type="button" ng-click="addRandomItem(row)" class="btn btn-sm btn-success"><i class="glyphicon glyphicon-plus"></i></button>
+        <button type="button" id="btnExport" class="btn btn-sm btn-success"><i class="glyphicon glyphicon-download"></i></button> -->
+        <button type="button" id="btnImport" ng-click="importFromCSV(row)" class="btn btn-sm btn-success" ><i class="glyphicon glyphicon-upload"></i></button>
+        <input type="file" id="fileImport" name="excel[]" style="visibility: hidden; position: absolute" >  </input>
+    </section>
 
-                <td>{{row.course}}</td>
-                <td>{{row.students}}</td>
-                <td>{{row.time}}</td>
-                <td>{{row.duration}}</td>
-                <td>{{row.desks}}</td>
-                <td>
-                    <button type="button" ng-click="removeItem(row)" class="btn btn-sm btn-danger">
-                        <i class="glyphicon glyphicon-remove-circle">
-                        </i>
-                    </button>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="row">
-        <div class="col-sm-4">
-            <button type="button" ng-click="addRandomItem(row)" class="btn btn-sm btn-success">
-                <i class="glyphicon glyphicon-plus">
-                </i> Add another Row
-            </button>
-        </div>
-        <div class="col-sm-4">
-            <button id="btnExport" class="btn btn-sm btn-success"><i class="glyphicon glyphicon-list-alt"></i> Export to xls</button>
-        </div>
-        <div class="col-sm-4">
-            <button id="btnImport" ng-click="importFromCSV(row)" class="btn btn-sm btn-success" ><i class="glyphicon glyphicon-search"></i> Import from CSV</button>
-            <input type="file" id="fileImport" name="excel[]" style=" visibility: hidden ; position: absolute" >  </input>
+    <section ng-if='groups.length==0' style='height: 100%; width: 100%; margin: 0 auto;'>
+        <div class="text-center" style='padding-top: 50px'>No data</div>
+    </section>
 
-        </div>
-    </div>
-    </div>
-    <div id="table_wrapper"style="position:relative">
-    <table class="table table-responsive table-striped table-bordered table-hover table-condensed">
+    <!-- section for table -->
+    <section style='padding: 10px 10px;'>
+        
+        <uib-accordion close-others="true">
 
-    </table>
+          <uib-accordion-group is-open="group.isOpen" ng-repeat="group in groups">
+            
+            <uib-accordion-heading>
+              <i class="glyphicon-plus"></i> Year: {{ group.name }} [ {{ group.students }} students ] 
+              <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': group.isOpen, 'glyphicon-chevron-right': !group.isOpen}"></i>
+            </uib-accordion-heading>
+
+            <uib-accordion close-others="true">
+
+                <uib-accordion-group is-open="mod.isOpen" ng-repeat="module in group.modules">
+
+                    <uib-accordion-heading><i class="glyphicon-plus"></i> {{ module.name }}  
+                        <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': mod.isOpen, 'glyphicon-chevron-right': !mod.isOpen}"></i>
+                    </uib-accordion-heading>
+
+                    <div class='row' style='background-color: #ddd; font-weight: bold'>
+                       <div class='col-sm-3'>Date</div> 
+                       <div class='col-sm-3'>Time</div> 
+                       <div class='col-sm-3'>Duration</div> 
+                       <div class='col-sm-3'>Desks</div> 
+                    </div>
+                    <div ng-class='activeDate==rowCollection[row].formattedDate ? "row lecture-item highlighted" : "row lecture-item"' 
+                        ng-repeat="row in module.rowIds" ng-click="alert(rowCollection[row].time)">
+                       <div class='col-sm-3'>{{rowCollection[row].date}}</div>
+                       <div class='col-sm-3'>{{rowCollection[row].time}}</div> 
+                       <div class='col-sm-3'>{{rowCollection[row].duration/60}} hour(s)</div> 
+                       <div class='col-sm-3'>{{rowCollection[row].desks}}</div> 
+                    </div>
+
+                </uib-accordion-group>
+
+            </uib-accordion>
+
+            
+          </uib-accordion-group>
+
+        </uib-accordion>
+
+    </section>
+
 </div>

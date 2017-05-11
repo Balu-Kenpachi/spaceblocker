@@ -1,7 +1,43 @@
+html, body{
+	position: relative;
+	height: 100%;
+	width: 100%;
+
+	font-family: sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.pane{
+	padding: 10px;
+	overflow-y: hidden;
+}
+
+a:focus{
+	outline: none;
+}
+
 .ui-layout-column > .ui-splitbar{
 	background: #C9C5C5;
 }
 
 .ui-layout-row > .ui-splitbar{
 	background: #C9C5C5;
+}
+
+.panel-heading{
+	border-radius: 0px;
+	padding: 10px;
+}
+
+.lecture-item{
+	border-bottom: 1px dashed #ccc;
+}
+
+.lecture-item.highlighted{
+	background-color: #4BAA4B;
+}
+
+.lecture-item:hover{
+	background: #ccc;
 }

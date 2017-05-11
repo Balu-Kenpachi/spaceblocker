@@ -16,17 +16,18 @@
         <link rel="stylesheet" href="assets/css/fileBrowseButton.css">
         <link rel="stylesheet" href="assets/css/table.css">
         <link rel="stylesheet" href="assets/css/slider.css">
+        <link rel="stylesheet" href="assets/css/app.css">
 
 
         <!-- jquery -->
         <script type="text/javascript" src="assets/js/jquery/jquery.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script>document.write('<base href="' + document.location + '" />');</script>
 
     </head>
 
     <body  ng-app="spaceBlocker">
+
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -45,17 +46,17 @@
 
         <div ui-layout id="layout" style="margin-top:50px" ng-cloak>
             
-            <div ui-layout="{ flow : 'row'}">
+            <div ui-layout="{ flow : 'row'}" disableToggle="false">
                 
                 <div ui-layout-container size="85%">
                     
-                    <div ui-layout="{flow : 'column'}" >
+                    <div ui-layout="{flow : 'column'}" disableToggle="false">
 
-                        <div ui-layout-container id="TabelPane" >
+                        <div class="pane" ui-layout-container id="Table">
                             <ng-include src="'SpaceBlocker/app/templates/tablePane.html'"></ng-include>
                         </div>
 
-                        <div ui-layout-container id="LayoutPane"  >
+                        <div class="pane" ui-layout-container id="LayoutPane" >
                             <div ng-controller="layoutCtrl">
                                 <h5>Layout</h5>
                                 <div ng-repeat="floor in floorList" style="position:relative">
@@ -72,16 +73,18 @@
                             </div>
                         </div>
 
-                        <div ui-layout-container id="GraphPane">
+                        <div class="pane" ui-layout-container id="GraphPane">
                             <div ng-controller="graphCtrl">
                                 <h5>Space Occupancy Statistics</h5>
-                                <nvd3 options="options" data="data" events="events"></nvd3>
-                                <p>sliderValue: {{ timeSliderValue }}</p>
+                                <nvd3 options="options" data="data" api="api"></nvd3>
                             </div>
                         </div>
+
                     </div>
+
                 </div>
-                <div ui-layout-container id="TimeSliderPane">
+
+                <div class="pane" ui-layout-container id="TimeSliderPane">
                     <div  ng-controller="sliderCtrl" >
                         <article>
                             <h5>Time</h5>
@@ -109,7 +112,8 @@
 
         <!-- app -->
         <script src="SpaceBlocker/app/app.js"></script>
-        <script src="SpaceBlocker/app/data.js"></script>
+        <script src="SpaceBlocker/app/services.js"></script>
+        <script src="SpaceBlocker/app/sliderCtrl.js"></script>
         <script src="SpaceBlocker/app/graphCtrl.js"></script>
         <script src="SpaceBlocker/app/layoutCtrl.js"></script>
         <script src="SpaceBlocker/app/tableCtrl.js"></script>
