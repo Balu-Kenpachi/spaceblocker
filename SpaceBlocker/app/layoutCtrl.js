@@ -1,43 +1,48 @@
-spaceBlocker.controller('layoutCtrl', ['$scope', 'dataService', function ($scope, dataService) {
+spaceBlocker.controller('layoutCtrl', ['$scope', 'dataService', 'timeService', function ($scope, dataService, timeService) {
 
-	$scope.timeSliderValue = 1025409600000;
 
-	$scope.$on('sliderChanged', function(message, data){
-		$scope.timeSliderValue = data();
+	$scope.activeDate = 1025409600000;
+	$scope.rowCollection = undefined;
+	$scope.deskArray=[];
+
+
+	var timeChanged = function(){
+		$scope.activeDate = timeService.getTime();
+		desksNeeded();
+
+	}
+
+	var dataChanged = function(){
+
+		$scope.rowCollection = dataService.getRows();
+		timeChanged();
+
+	}
+
+	var desksNeeded = function(){
+
+		$scope.rowCollection = dataService.getRows();
+		$scope.deskArray=[];
 		$scope.totaldesks=0;
-		getdesks();
 
-		console.log($scope.totaldesks);
-		//fillSVGElements($scope.totaldesks);
-	})
+		$scope.rowCollection.map(function(row){
+
+			if(row.formattedDate==$scope.activeDate){
+				$scope.deskArray.push(parseInt(row.desks));
+				$scope.totaldesks=$scope.totaldesks+parseInt(row.desks);
+			}
+			console.log($scope.totaldesks);
+			fillSVGElements($scope.totaldesks);
+		});
+
+	}
+
+
 
 	$scope.floorList = dataService.getFloors();
 
 
-	function getdesks(){
 
-		// Keep a copy of the collection for tests
-		var dataCopy = JSON.parse(JSON.stringify(data));
-
-		$scope.deskArray=[];
-
-		data.map(function(obj){
-
-			obj.values.map(function(value){
-
-				if(value[0]===$scope.timeSliderValue){
-					$scope.deskArray.push(value);
-					$scope.totaldesks=$scope.totaldesks+value[1];
-				}
-				return value[0]===1025409600000;
-			});
-		});
-		
-		//$scope.$apply();
-
-		deskArrayGlobal=$scope.deskArray;
-
-	}
 
 
 	function getSubDocument(embedding_element) {
@@ -62,19 +67,28 @@ spaceBlocker.controller('layoutCtrl', ['$scope', 'dataService', function ($scope
 	    for (var i = 0; i < elms.length; i++)
 	    {
 		    var subdoc = getSubDocument(elms[i])
+
 		    if (subdoc)
 		    {
-			    for(i=1;i<=60;i++){
-				    subdoc.getElementById(i).setAttribute("fill", "lime");
+			    for(i=1;i<=156;i++){
+			       subdoc.getElementById(i).setAttribute("stroke", "red");
+			       subdoc.getElementById(i).setAttribute("fill", "none");
 			    }
 
 		    	for(i=1;i<=desks;i++){
-				    subdoc.getElementById(i).setAttribute("fill", "red");
+				    subdoc.getElementById(i).setAttribute("stroke", "lime");
+				    subdoc.getElementById(i).setAttribute("fill", "none");
+
 			    }
 		    }
 
+
 	    }
     }
+
+
+	timeService.registerObserverCallback(timeChanged);
+	dataService.registerObserverCallback(dataChanged);
 
 
 }]);

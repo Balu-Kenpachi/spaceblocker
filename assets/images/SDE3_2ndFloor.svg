@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+	 viewBox="0 0 841.9 495.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
 <style type="text/css">
 	
 		.st0{fill:none;stroke:#3953A4;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:1000,558.8735;}
@@ -891,24 +891,7 @@
 <g id="LWPOLYLINE_679_">
 	<path class="st3" d="M471.8,231.7l-0.4-0.5l0.5-0.4C472.1,231,472,231.4,471.8,231.7"/>
 </g>
-<g id="LWPOLYLINE_678_">
-	<rect x="150.3" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_677_">
-	<rect x="155.6" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_676_">
-	<rect x="150.3" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_675_">
-	<rect x="155.6" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_674_">
-	<rect x="150.3" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_673_">
-	<rect x="155.6" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
+
 <g id="LWPOLYLINE_672_">
 	<polygon class="st3" points="81.7,396.4 81.7,358 1.7,358 1.7,324.5 81.7,324.5 81.7,226.2 131.5,226.2 131.5,211.6 158.5,211.6 
 		277.6,211.6 277.6,216.8 277.5,228.2 267.7,228.2 267.7,254.4 271.3,254.4 271.3,267.9 235.7,267.9 235.7,257.5 223.5,257.5 
@@ -938,6 +921,713 @@
 	<polyline class="st3" points="137.1,396.4 137.1,394.3 503.7,394.3 503.7,405.1 137.1,405.1 127.8,405.1 127.8,396.4 137.1,396.4 	
 		"/>
 </g>
+
+
+
+
+
+
+	<!--Cluster 1-->
+<g id="LWPOLYLINE_462_">
+	<rect id="1" x="316.8" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="2" x="322" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="3" x="316.8" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="4" x="322" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="5" x="316.8" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="6" x="322" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="7" x="338.6" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="8" x="343.9" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="9" x="338.6" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="10" x="343.9" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="11" x="338.6" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="12" x="343.9" y="254.8"  width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 2-->
+<g id="LWPOLYLINE_450_">
+	<rect id="13" x="371.8" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="14" x="377" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="15" x="371.8" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="16" x="377" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="17" x="371.8" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="18" x="377" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="19" x="393.6" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="20" x="398.9" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="21" x="393.6" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="22" x="398.9" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="23" x="393.6" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="24" x="398.9" y="254.8"  width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 3-->
+<g id="LWPOLYLINE_438_">
+	<rect id="25" x="427.2" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="26" x="432.4" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="27" x="427.2" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="28" x="432.4" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="29" x="427.2" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="30" x="432.4" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="31" x="449" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="32" x="454.2" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="33" x="449" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="34" x="454.2" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="35" x="449" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="36" x="454.2" y="254.8"  width="5.2" height="10.5"/>
+</g>
+
+
+	<!--Cluster 4 -->
+<g id="LWPOLYLINE_386_">
+	<rect id="37" x="482.5" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="38" x="487.8" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="39" x="482.5" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="40" x="487.8" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="41" x="482.5" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="42" x="487.8" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="43" x="504.4" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="44" x="509.6" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="45" x="504.4" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="46" x="509.6" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="47" x="504.4" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="48" x="509.6" y="254.8"  width="5.2" height="10.5"/>
+</g>
+
+
+	<!--Cluster 5-->
+<g id="LWPOLYLINE_426_">
+	<rect id="49" x="537.9" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="50" x="543.1" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="51" x="537.9" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="52" x="543.1" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="53" x="537.9" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="54" x="543.1" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="55" x="559.7" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="56" x="565" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="57" x="559.7" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="58" x="565" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="59" x="559.7" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="60" x="565" y="254.8"  width="5.2" height="10.5"/>
+</g>
+
+
+	<!--Cluster 6-->
+<g id="LWPOLYLINE_414_">
+	<rect id="61" x="593.3" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="62" x="598.5" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="63" x="593.3" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="64" x="598.5" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="65" x="593.3" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="66" x="598.5" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="67" x="615.1" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="68" x="620.3" y="233.8"  width="5.2" height="10.5"/>
+
+	<rect id="69" x="615.1" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="70" x="620.3" y="244.3"  width="5.2" height="10.5"/>
+
+	<rect id="71" x="615.1" y="254.8"  width="5.2" height="10.5"/>
+
+	<rect id="72" x="620.3" y="254.8"  width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 7-->
+<g id="LWPOLYLINE_558_">
+	<rect id="73" x="150.4" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="74" x="155.6" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="75" x="150.4" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="76" x="155.6" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="77" x="150.4" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="78" x="155.6" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="79" x="172.2" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="80" x="177.4" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="81" x="172.2" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="82" x="177.4" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="83" x="172.2" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="84" x="177.4" y="316.5"  width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 8-->
+<g id="LWPOLYLINE_546_">
+	<rect id="85" x="205.7" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="86" x="211" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="87" x="205.7" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="88" x="211" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="89" x="205.7" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="90" x="211" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="91" x="227.5" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="92" x="232.8" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="93" x="227.5" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="94" x="232.8" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="95" x="227.5" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="96" x="232.8" y="316.5"  width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 9-->
+<g id="LWPOLYLINE_534_">
+	<rect id="97" x="261.1" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="98" x="266.3" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="99" x="261.1" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="100" x="266.3" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="101" x="261.1" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="102" x="266.3" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="103" x="282.9" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="104" x="288.2" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="105" x="282.9" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="106" x="288.2" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="107" x="282.9" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="108" x="288.2" y="316.5"  width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 10-->
+<g id="LWPOLYLINE_522_">
+	<rect id="109" x="316.8" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="110" x="322" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="111" x="316.8" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="112" x="322" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="113" x="316.8" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="114" x="322" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="115" x="338.6" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="116" x="343.9" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="117" x="338.6" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="118" x="343.9" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="119" x="338.6" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="120" x="343.9" y="316.5"  width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 11-->
+<g id="LWPOLYLINE_510_">
+	<rect id="121" x="371.8" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="122" x="377" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="123" x="371.8" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="124" x="377" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="125" x="371.8" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="126" x="377" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="127" x="393.6" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="128" x="398.9" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="129" x="393.6" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="130" x="398.9" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="131" x="393.6" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="132" x="398.9" y="316.5"  width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 12-->
+<g id="LWPOLYLINE_498_">
+	<rect id="133" x="427.2" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="134" x="432.4" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="135" x="427.2" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="136" x="432.4" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="137" x="427.2" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="138" x="432.4" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="139" x="449" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="140" x="454.2" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="141" x="449" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="142" x="454.2" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="143" x="449" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="144" x="454.2" y="316.5"  width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 13-->
+<g id="LWPOLYLINE_353_">
+	<rect id="145" x="482.5" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="146" x="487.8" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="147" x="482.5" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="148" x="487.8" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="149" x="482.5" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="150" x="487.8" y="316.5"  width="5.2" height="10.5"/>
+
+	<rect id="151" x="504.4" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="152" x="509.6" y="295.6"  width="5.2" height="10.5"/>
+
+	<rect id="153" x="504.4" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="154" x="509.6" y="306"  width="5.2" height="10.5"/>
+
+	<rect id="155" x="504.4" y="316.5"  width="5.2" height="10.5"/>
+
+    <rect id="156" x="509.6" y="316.5"  width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 14-->
+<g id="LWPOLYLINE_486_">
+	<rect x="537.9" y="295.6" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="543.1" y="295.6" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="537.9" y="306" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="543.1" y="306" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="537.9" y="316.5" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="543.1" y="316.5" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="559.7" y="295.6" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="565" y="295.6" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="559.7" y="306" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="565" y="306" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="559.7" y="316.5" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="565" y="316.5" class="st3" width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 15-->
+
+<g id="LWPOLYLINE_474_">
+	<rect x="593.3" y="295.6" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="598.5" y="295.6" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="593.3" y="306" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="598.5" y="306" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="593.3" y="316.5" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="598.5" y="316.5" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="615.1" y="295.6" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="620.3" y="295.6" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="615.1" y="306" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="620.3" y="306" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="615.1" y="316.5" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="620.3" y="316.5" class="st3" width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 16-->
+	<g id="LWPOLYLINE_678_">
+	<rect x="150.3" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="155.6" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="150.3" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="155.6" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="150.3" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="155.6" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="172.1" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="177.4" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="172.1" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="177.4" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="172.1" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="177.4" y="378.3" class="st3" width="5.2" height="10.5"/>
+</g>
+
+
+	<!--Cluster 17-->
+<g id="LWPOLYLINE_618_">
+	<rect x="205.7" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="210.9" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="205.7" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="210.9" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="205.7" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="210.9" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="227.5" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="232.8" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="227.5" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="232.8" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="227.5" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="232.8" y="378.3" class="st3" width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 18-->
+<g id="LWPOLYLINE_606_">
+	<rect x="261" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="266.3" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="261" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="266.3" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="261" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="266.3" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="282.9" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="288.1" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="282.9" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="288.1" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="282.9" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="288.1" y="378.3" class="st3" width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 19-->
+<g id="LWPOLYLINE_594_">
+	<rect x="316.8" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="322" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="316.8" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="322" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="316.8" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="322" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="338.6" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="343.8" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="338.6" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="343.8" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="338.6" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="343.8" y="378.3" class="st3" width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 20-->
+<g id="LWPOLYLINE_582_">
+	<rect x="371.8" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="377" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="371.8" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="377" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="371.8" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="377" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="393.6" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="398.8" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="393.6" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="398.8" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="393.6" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="398.8" y="378.3" class="st3" width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 21-->
+
+<g id="LWPOLYLINE_570_">
+	<rect x="427.1" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="432.4" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="427.1" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="432.4" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="427.1" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="432.4" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="449" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="454.2" y="357.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="449" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="454.2" y="367.8" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="449" y="378.3" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="454.2" y="378.3" class="st3" width="5.2" height="10.5"/>
+</g>
+
+	<!--Cluster 22-->
+<g id="LWPOLYLINE_402_">
+	<rect x="595.3" y="360.1" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="600.5" y="360.1" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="595.3" y="370.6" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="600.5" y="370.6" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="595.3" y="381.1" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="600.5" y="381.1" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="617.1" y="360.1" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="622.4" y="360.1" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="617.1" y="370.6" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="622.4" y="370.6" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="617.1" y="381.1" class="st3" width="5.2" height="10.5"/>
+
+	<rect x="622.4" y="381.1" class="st3" width="5.2" height="10.5"/>
+</g>
+
+
+
+	<!--Seats along the window-->
+<g id="LWPOLYLINE_374_">
+	<rect x="307.3" y="228.2" class="st0" width="51.2" height="2.8"/>
+</g>
+<g id="LWPOLYLINE_373_">
+	<rect x="362.7" y="228.2" class="st0" width="51.2" height="2.8"/>
+</g>
+<g id="LWPOLYLINE_372_">
+	<rect x="418" y="228.2" class="st0" width="51.2" height="2.8"/>
+</g>
+<g id="LWPOLYLINE_371_">
+	<rect x="473.4" y="228.2" class="st0" width="51.2" height="2.8"/>
+</g>
+<g id="LWPOLYLINE_370_">
+	<rect x="528.8" y="228.2" class="st0" width="51.2" height="2.8"/>
+</g>
+<g id="LWPOLYLINE_369_">
+	<rect x="584.1" y="228.2" class="st0" width="51.2" height="2.8"/>
+</g>
+<g id="LWPOLYLINE_368_">
+	<rect x="141.2" y="391.5" class="st0" width="51.2" height="2.8"/>
+</g>
+<g id="LWPOLYLINE_367_">
+	<rect x="196.6" y="391.5" class="st0" width="51.2" height="2.8"/>
+</g>
+<g id="LWPOLYLINE_366_">
+	<rect x="251.9" y="391.5" class="st0" width="51.2" height="2.8"/>
+</g>
+<g id="LWPOLYLINE_365_">
+	<rect x="307.3" y="391.5" class="st0" width="51.2" height="2.8"/>
+</g>
+<g id="LWPOLYLINE_364_">
+	<rect x="362.7" y="391.5" class="st0" width="51.2" height="2.8"/>
+</g>
+<g id="LWPOLYLINE_363_">
+	<rect x="418" y="391.5" class="st0" width="51.2" height="2.8"/>
+</g>
+<g id="LWPOLYLINE_362_">
+	<rect x="584.1" y="391.5" class="st0" width="51.2" height="2.8"/>
+</g>
+
+
+
+	<!--TOP Left Racks-->
+<g id="LWPOLYLINE_361_">
+	<rect x="287.1" y="259.7" class="st5" width="5.6" height="9.8"/>
+</g>
+<g id="LWPOLYLINE_360_">
+	<rect x="287.1" y="249.9" class="st5" width="5.6" height="9.8"/>
+</g>
+<g id="LWPOLYLINE_359_">
+	<rect x="287.1" y="240.1" class="st5" width="5.6" height="9.8"/>
+</g>
+<g id="LWPOLYLINE_358_">
+	<rect x="287.1" y="230.3" class="st5" width="5.6" height="9.8"/>
+</g>
+<g id="LWPOLYLINE_357_">
+	<rect x="281.5" y="259.7" class="st5" width="5.6" height="9.8"/>
+</g>
+<g id="LWPOLYLINE_356_">
+	<rect x="281.5" y="249.9" class="st5" width="5.6" height="9.8"/>
+</g>
+<g id="LWPOLYLINE_355_">
+	<rect x="281.5" y="240.1" class="st5" width="5.6" height="9.8"/>
+</g>
+<g id="LWPOLYLINE_354_">
+	<rect x="281.5" y="230.3" class="st5" width="5.6" height="9.8"/>
+</g>
+
+
+	<g id="LWPOLYLINE_390_">
+	<rect x="301.7" y="259.7" class="st4" width="5.6" height="9.8"/>
+</g>
+<g id="LWPOLYLINE_389_">
+	<rect x="301.7" y="249.9" class="st4" width="5.6" height="9.8"/>
+</g>
+<g id="LWPOLYLINE_388_">
+	<rect x="301.7" y="240.1" class="st4" width="5.6" height="9.8"/>
+</g>
+<g id="LWPOLYLINE_387_">
+	<rect x="301.7" y="230.3" class="st4" width="5.6" height="9.8"/>
+</g>
+
+	<!--Bottom Right Racks-->
+	<g id="LWPOLYLINE_656_">
+	<rect x="472.8" y="381.8" class="st4" width="5.6" height="9.8"/>
+</g>
+<g id="LWPOLYLINE_655_">
+	<rect x="472.8" y="372" class="st4" width="5.6" height="9.8"/>
+</g>
+<g id="LWPOLYLINE_654_">
+	<rect x="472.8" y="362.2" class="st4" width="5.6" height="9.8"/>
+</g>
+<g id="LWPOLYLINE_653_">
+	<rect x="472.8" y="352.4" class="st4" width="5.6" height="9.8"/>
+</g>
+
+
+
 <g id="LWPOLYLINE_664_">
 	<rect x="493" y="381.8" class="st4" width="5.6" height="9.8"/>
 </g>
@@ -962,18 +1652,10 @@
 <g id="LWPOLYLINE_657_">
 	<rect x="498.6" y="352.4" class="st4" width="5.6" height="9.8"/>
 </g>
-<g id="LWPOLYLINE_656_">
-	<rect x="472.8" y="381.8" class="st4" width="5.6" height="9.8"/>
-</g>
-<g id="LWPOLYLINE_655_">
-	<rect x="472.8" y="372" class="st4" width="5.6" height="9.8"/>
-</g>
-<g id="LWPOLYLINE_654_">
-	<rect x="472.8" y="362.2" class="st4" width="5.6" height="9.8"/>
-</g>
-<g id="LWPOLYLINE_653_">
-	<rect x="472.8" y="352.4" class="st4" width="5.6" height="9.8"/>
-</g>
+
+
+
+
 <g id="LWPOLYLINE_652_">
 	<rect x="521.1" y="381.8" class="st4" width="5.6" height="9.8"/>
 </g>
@@ -986,6 +1668,9 @@
 <g id="LWPOLYLINE_649_">
 	<rect x="521.1" y="352.4" class="st4" width="5.6" height="9.8"/>
 </g>
+
+
+
 <g id="LWPOLYLINE_648_">
 	<rect x="535" y="381.8" class="st4" width="5.6" height="9.8"/>
 </g>
@@ -1010,6 +1695,8 @@
 <g id="LWPOLYLINE_641_">
 	<rect x="540.6" y="352.4" class="st4" width="5.6" height="9.8"/>
 </g>
+
+
 <g id="LWPOLYLINE_640_">
 	<rect x="554.6" y="381.8" class="st4" width="5.6" height="9.8"/>
 </g>
@@ -1034,6 +1721,8 @@
 <g id="LWPOLYLINE_633_">
 	<rect x="560.2" y="352.4" class="st4" width="5.6" height="9.8"/>
 </g>
+
+
 <g id="LWPOLYLINE_632_">
 	<rect x="574.4" y="381.8" class="st4" width="5.6" height="9.8"/>
 </g>
@@ -1058,721 +1747,30 @@
 <g id="LWPOLYLINE_625_">
 	<rect x="580" y="352.4" class="st4" width="5.6" height="9.8"/>
 </g>
-<g id="LWPOLYLINE_624_">
-	<rect x="172.1" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_623_">
-	<rect x="177.4" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_622_">
-	<rect x="172.1" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_621_">
-	<rect x="177.4" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_620_">
-	<rect x="172.1" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_619_">
-	<rect x="177.4" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_618_">
-	<rect x="205.7" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_617_">
-	<rect x="210.9" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_616_">
-	<rect x="205.7" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_615_">
-	<rect x="210.9" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_614_">
-	<rect x="205.7" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_613_">
-	<rect x="210.9" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_612_">
-	<rect x="227.5" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_611_">
-	<rect x="232.8" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_610_">
-	<rect x="227.5" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_609_">
-	<rect x="232.8" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_608_">
-	<rect x="227.5" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_607_">
-	<rect x="232.8" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_606_">
-	<rect x="261" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_605_">
-	<rect x="266.3" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_604_">
-	<rect x="261" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_603_">
-	<rect x="266.3" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_602_">
-	<rect x="261" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_601_">
-	<rect x="266.3" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_600_">
-	<rect x="282.9" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_599_">
-	<rect x="288.1" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_598_">
-	<rect x="282.9" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_597_">
-	<rect x="288.1" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_596_">
-	<rect x="282.9" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_595_">
-	<rect x="288.1" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_594_">
-	<rect x="316.8" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_593_">
-	<rect x="322" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_592_">
-	<rect x="316.8" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_591_">
-	<rect x="322" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_590_">
-	<rect x="316.8" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_589_">
-	<rect x="322" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_588_">
-	<rect x="338.6" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_587_">
-	<rect x="343.8" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_586_">
-	<rect x="338.6" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_585_">
-	<rect x="343.8" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_584_">
-	<rect x="338.6" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_583_">
-	<rect x="343.8" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_582_">
-	<rect x="371.8" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_581_">
-	<rect x="377" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_580_">
-	<rect x="371.8" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_579_">
-	<rect x="377" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_578_">
-	<rect x="371.8" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_577_">
-	<rect x="377" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_576_">
-	<rect x="393.6" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_575_">
-	<rect x="398.8" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_574_">
-	<rect x="393.6" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_573_">
-	<rect x="398.8" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_572_">
-	<rect x="393.6" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_571_">
-	<rect x="398.8" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_570_">
-	<rect x="427.1" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_569_">
-	<rect x="432.4" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_568_">
-	<rect x="427.1" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_567_">
-	<rect x="432.4" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_566_">
-	<rect x="427.1" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_565_">
-	<rect x="432.4" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_564_">
-	<rect x="449" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_563_">
-	<rect x="454.2" y="357.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_562_">
-	<rect x="449" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_561_">
-	<rect x="454.2" y="367.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_560_">
-	<rect x="449" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_559_">
-	<rect x="454.2" y="378.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_558_">
-	<rect x="150.4" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_557_">
-	<rect x="155.6" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_556_">
-	<rect x="150.4" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_555_">
-	<rect x="155.6" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_554_">
-	<rect x="150.4" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_553_">
-	<rect x="155.6" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_552_">
-	<rect x="172.2" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_551_">
-	<rect x="177.4" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_550_">
-	<rect x="172.2" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_549_">
-	<rect x="177.4" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_548_">
-	<rect x="172.2" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_547_">
-	<rect x="177.4" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_546_">
-	<rect x="205.7" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_545_">
-	<rect x="211" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_544_">
-	<rect x="205.7" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_543_">
-	<rect x="211" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_542_">
-	<rect x="205.7" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_541_">
-	<rect x="211" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_540_">
-	<rect x="227.5" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_539_">
-	<rect x="232.8" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_538_">
-	<rect x="227.5" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_537_">
-	<rect x="232.8" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_536_">
-	<rect x="227.5" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_535_">
-	<rect x="232.8" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_534_">
-	<rect x="261.1" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_533_">
-	<rect x="266.3" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_532_">
-	<rect x="261.1" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_531_">
-	<rect x="266.3" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_530_">
-	<rect x="261.1" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_529_">
-	<rect x="266.3" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_528_">
-	<rect x="282.9" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_527_">
-	<rect x="288.2" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_526_">
-	<rect x="282.9" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_525_">
-	<rect x="288.2" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_524_">
-	<rect x="282.9" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_523_">
-	<rect x="288.2" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_522_">
-	<rect x="316.8" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_521_">
-	<rect x="322" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_520_">
-	<rect x="316.8" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_519_">
-	<rect x="322" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_518_">
-	<rect x="316.8" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_517_">
-	<rect x="322" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_516_">
-	<rect x="338.6" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_515_">
-	<rect x="343.9" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_514_">
-	<rect x="338.6" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_513_">
-	<rect x="343.9" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_512_">
-	<rect x="338.6" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_511_">
-	<rect x="343.9" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_510_">
-	<rect x="371.8" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_509_">
-	<rect x="377" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_508_">
-	<rect x="371.8" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_507_">
-	<rect x="377" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_506_">
-	<rect x="371.8" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_505_">
-	<rect x="377" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_504_">
-	<rect x="393.6" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_503_">
-	<rect x="398.9" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_502_">
-	<rect x="393.6" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_501_">
-	<rect x="398.9" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_500_">
-	<rect x="393.6" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_499_">
-	<rect x="398.9" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_498_">
-	<rect x="427.2" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_497_">
-	<rect x="432.4" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_496_">
-	<rect x="427.2" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_495_">
-	<rect x="432.4" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_494_">
-	<rect x="427.2" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_493_">
-	<rect x="432.4" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_492_">
-	<rect x="449" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_491_">
-	<rect x="454.2" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_490_">
-	<rect x="449" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_489_">
-	<rect x="454.2" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_488_">
-	<rect x="449" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_487_">
-	<rect x="454.2" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_486_">
-	<rect x="537.9" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_485_">
-	<rect x="543.1" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_484_">
-	<rect x="537.9" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_483_">
-	<rect x="543.1" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_482_">
-	<rect x="537.9" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_481_">
-	<rect x="543.1" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_480_">
-	<rect x="559.7" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_479_">
-	<rect x="565" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_478_">
-	<rect x="559.7" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_477_">
-	<rect x="565" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_476_">
-	<rect x="559.7" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_475_">
-	<rect x="565" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_474_">
-	<rect x="593.3" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_473_">
-	<rect x="598.5" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_472_">
-	<rect x="593.3" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_471_">
-	<rect x="598.5" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_470_">
-	<rect x="593.3" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_469_">
-	<rect x="598.5" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_468_">
-	<rect x="615.1" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_467_">
-	<rect x="620.3" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_466_">
-	<rect x="615.1" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_465_">
-	<rect x="620.3" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_464_">
-	<rect x="615.1" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_463_">
-	<rect x="620.3" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_462_">
-	<rect x="316.8" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_461_">
-	<rect x="322" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_460_">
-	<rect x="316.8" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_459_">
-	<rect x="322" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_458_">
-	<rect x="316.8" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_457_">
-	<rect x="322" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_456_">
-	<rect x="338.6" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_455_">
-	<rect x="343.9" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_454_">
-	<rect x="338.6" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_453_">
-	<rect x="343.9" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_452_">
-	<rect x="338.6" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_451_">
-	<rect x="343.9" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_450_">
-	<rect x="371.8" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_449_">
-	<rect x="377" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_448_">
-	<rect x="371.8" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_447_">
-	<rect x="377" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_446_">
-	<rect x="371.8" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_445_">
-	<rect x="377" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_444_">
-	<rect x="393.6" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_443_">
-	<rect x="398.9" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_442_">
-	<rect x="393.6" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_441_">
-	<rect x="398.9" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_440_">
-	<rect x="393.6" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_439_">
-	<rect x="398.9" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_438_">
-	<rect x="427.2" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_437_">
-	<rect x="432.4" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_436_">
-	<rect x="427.2" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_435_">
-	<rect x="432.4" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_434_">
-	<rect x="427.2" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_433_">
-	<rect x="432.4" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_432_">
-	<rect x="449" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_431_">
-	<rect x="454.2" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_430_">
-	<rect x="449" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_429_">
-	<rect x="454.2" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_428_">
-	<rect x="449" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_427_">
-	<rect x="454.2" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_426_">
-	<rect x="537.9" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_425_">
-	<rect x="543.1" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_424_">
-	<rect x="537.9" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_423_">
-	<rect x="543.1" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_422_">
-	<rect x="537.9" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_421_">
-	<rect x="543.1" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_420_">
-	<rect x="559.7" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_419_">
-	<rect x="565" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_418_">
-	<rect x="559.7" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_417_">
-	<rect x="565" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_416_">
-	<rect x="559.7" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_415_">
-	<rect x="565" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_414_">
-	<rect x="593.3" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_413_">
-	<rect x="598.5" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_412_">
-	<rect x="593.3" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_411_">
-	<rect x="598.5" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_410_">
-	<rect x="593.3" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_409_">
-	<rect x="598.5" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_408_">
-	<rect x="615.1" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_407_">
-	<rect x="620.3" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_406_">
-	<rect x="615.1" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_405_">
-	<rect x="620.3" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_404_">
-	<rect x="615.1" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_403_">
-	<rect x="620.3" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_402_">
-	<rect x="595.3" y="360.1" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_401_">
-	<rect x="600.5" y="360.1" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_400_">
-	<rect x="595.3" y="370.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_399_">
-	<rect x="600.5" y="370.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_398_">
-	<rect x="595.3" y="381.1" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_397_">
-	<rect x="600.5" y="381.1" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_396_">
-	<rect x="617.1" y="360.1" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_395_">
-	<rect x="622.4" y="360.1" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_394_">
-	<rect x="617.1" y="370.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_393_">
-	<rect x="622.4" y="370.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_392_">
-	<rect x="617.1" y="381.1" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_391_">
-	<rect x="622.4" y="381.1" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_390_">
-	<rect x="301.7" y="259.7" class="st4" width="5.6" height="9.8"/>
-</g>
-<g id="LWPOLYLINE_389_">
-	<rect x="301.7" y="249.9" class="st4" width="5.6" height="9.8"/>
-</g>
-<g id="LWPOLYLINE_388_">
-	<rect x="301.7" y="240.1" class="st4" width="5.6" height="9.8"/>
-</g>
-<g id="LWPOLYLINE_387_">
-	<rect x="301.7" y="230.3" class="st4" width="5.6" height="9.8"/>
-</g>
-<g id="POLYLINE_174_">
+
+
+
+
+
+<!-- Others-->
+
+<g id="POLYLINE_167_">
+	<rect x="277.4" y="394.3" class="st2" width="0.3" height="0.7"/>
+</g>
+<g id="POLYLINE_166_">
+	<rect x="503.7" y="394.3" class="st2" width="0.3" height="0.7"/>
+</g>
+<g id="POLYLINE_165_">
+	<rect x="230.5" y="394.3" class="st2" width="0.3" height="0.7"/>
+</g>
+<g id="POLYLINE_164_">
+	<rect x="222" y="394.3" class="st2" width="0.3" height="0.7"/>
+</g>
+<g id="LINE_124_">
+	<line class="st2" x1="230.5" y1="394.7" x2="222.4" y2="394.7"/>
+</g>
+
+	<g id="POLYLINE_174_">
 	<rect x="562.7" y="394.3" class="st2" width="0.3" height="0.7"/>
 </g>
 <g id="POLYLINE_173_">
@@ -1817,154 +1815,5 @@
 <g id="LINE_125_">
 	<line class="st2" x1="579.6" y1="394.3" x2="529.1" y2="394.3"/>
 </g>
-<g id="LWPOLYLINE_386_">
-	<rect x="482.5" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_385_">
-	<rect x="487.8" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_384_">
-	<rect x="482.5" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_383_">
-	<rect x="487.8" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_382_">
-	<rect x="482.5" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_381_">
-	<rect x="487.8" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_380_">
-	<rect x="504.4" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_379_">
-	<rect x="509.6" y="233.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_378_">
-	<rect x="504.4" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_377_">
-	<rect x="509.6" y="244.3" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_376_">
-	<rect x="504.4" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_375_">
-	<rect x="509.6" y="254.8" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_374_">
-	<rect x="307.3" y="228.2" class="st0" width="51.2" height="2.8"/>
-</g>
-<g id="LWPOLYLINE_373_">
-	<rect x="362.7" y="228.2" class="st0" width="51.2" height="2.8"/>
-</g>
-<g id="LWPOLYLINE_372_">
-	<rect x="418" y="228.2" class="st0" width="51.2" height="2.8"/>
-</g>
-<g id="LWPOLYLINE_371_">
-	<rect x="473.4" y="228.2" class="st0" width="51.2" height="2.8"/>
-</g>
-<g id="LWPOLYLINE_370_">
-	<rect x="528.8" y="228.2" class="st0" width="51.2" height="2.8"/>
-</g>
-<g id="LWPOLYLINE_369_">
-	<rect x="584.1" y="228.2" class="st0" width="51.2" height="2.8"/>
-</g>
-<g id="LWPOLYLINE_368_">
-	<rect x="141.2" y="391.5" class="st0" width="51.2" height="2.8"/>
-</g>
-<g id="LWPOLYLINE_367_">
-	<rect x="196.6" y="391.5" class="st0" width="51.2" height="2.8"/>
-</g>
-<g id="LWPOLYLINE_366_">
-	<rect x="251.9" y="391.5" class="st0" width="51.2" height="2.8"/>
-</g>
-<g id="LWPOLYLINE_365_">
-	<rect x="307.3" y="391.5" class="st0" width="51.2" height="2.8"/>
-</g>
-<g id="LWPOLYLINE_364_">
-	<rect x="362.7" y="391.5" class="st0" width="51.2" height="2.8"/>
-</g>
-<g id="LWPOLYLINE_363_">
-	<rect x="418" y="391.5" class="st0" width="51.2" height="2.8"/>
-</g>
-<g id="LWPOLYLINE_362_">
-	<rect x="584.1" y="391.5" class="st0" width="51.2" height="2.8"/>
-</g>
-<g id="LWPOLYLINE_361_">
-	<rect x="287.1" y="259.7" class="st5" width="5.6" height="9.8"/>
-</g>
-<g id="LWPOLYLINE_360_">
-	<rect x="287.1" y="249.9" class="st5" width="5.6" height="9.8"/>
-</g>
-<g id="LWPOLYLINE_359_">
-	<rect x="287.1" y="240.1" class="st5" width="5.6" height="9.8"/>
-</g>
-<g id="LWPOLYLINE_358_">
-	<rect x="287.1" y="230.3" class="st5" width="5.6" height="9.8"/>
-</g>
-<g id="LWPOLYLINE_357_">
-	<rect x="281.5" y="259.7" class="st5" width="5.6" height="9.8"/>
-</g>
-<g id="LWPOLYLINE_356_">
-	<rect x="281.5" y="249.9" class="st5" width="5.6" height="9.8"/>
-</g>
-<g id="LWPOLYLINE_355_">
-	<rect x="281.5" y="240.1" class="st5" width="5.6" height="9.8"/>
-</g>
-<g id="LWPOLYLINE_354_">
-	<rect x="281.5" y="230.3" class="st5" width="5.6" height="9.8"/>
-</g>
-<g id="LWPOLYLINE_353_">
-	<rect x="482.5" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_352_">
-	<rect x="487.8" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_351_">
-	<rect x="482.5" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_350_">
-	<rect x="487.8" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_349_">
-	<rect x="482.5" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_348_">
-	<rect x="487.8" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_347_">
-	<rect x="504.4" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_346_">
-	<rect x="509.6" y="295.6" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_345_">
-	<rect x="504.4" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_344_">
-	<rect x="509.6" y="306" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_343_">
-	<rect x="504.4" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="LWPOLYLINE_342_">
-	<rect x="509.6" y="316.5" class="st3" width="5.2" height="10.5"/>
-</g>
-<g id="POLYLINE_167_">
-	<rect x="277.4" y="394.3" class="st2" width="0.3" height="0.7"/>
-</g>
-<g id="POLYLINE_166_">
-	<rect x="503.7" y="394.3" class="st2" width="0.3" height="0.7"/>
-</g>
-<g id="POLYLINE_165_">
-	<rect x="230.5" y="394.3" class="st2" width="0.3" height="0.7"/>
-</g>
-<g id="POLYLINE_164_">
-	<rect x="222" y="394.3" class="st2" width="0.3" height="0.7"/>
-</g>
-<g id="LINE_124_">
-	<line class="st2" x1="230.5" y1="394.7" x2="222.4" y2="394.7"/>
-</g>
+
 </svg>

@@ -2,7 +2,6 @@ spaceBlocker.controller('tableCtrl', ['$scope', 'dataService', 'timeService', fu
 
 	$scope.rowCollection = undefined;
 	$scope.groups = undefined;
-
 	$scope.activeDate = undefined;
 
 	var init = function(){

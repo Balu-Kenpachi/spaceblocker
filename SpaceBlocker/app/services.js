@@ -1,8 +1,13 @@
 spaceBlocker.factory("dataService", ['timeService', function(timeService) {
 	
 	var o = {
-		floors : [	{floorImage:"assets/images/Desks5.svg" } ],
+		floors : [
+			 // {floorImage:"assets/images/SDE3_6thFloor.svg" },
+			{floorImage:"assets/images/SDE3_2ndFloor.svg" },
+			// {floorImage:"assets/images/SDE3_1stFloor.svg"}
+			],
 		rows: [],
+
 		chartData: [
 				/*{
 					"key" : "First Year" ,
