@@ -4,6 +4,30 @@ spaceBlocker.controller('tableCtrl', ['$scope', 'dataService', 'timeService', fu
 	$scope.groups = undefined;
 	$scope.activeDate = undefined;
 
+	$( document ).ready(function() {
+
+		$.ajax({
+			url:"assets/data/DataBase.csv",
+			type:'GET',
+			dataType:"text",
+			success:function(data){
+				var new_rows = [];
+				var sample=data;
+				var arr= sample.split("\n");
+				arr=arr.map(function(value){
+					var elements=value.split(',');
+					new_rows.push(generateObject(elements));
+					return elements;
+				});
+				dataService.setRows(new_rows);
+
+
+			}
+		});
+	});
+
+
+
 	var init = function(){
 		$scope.rowCollection = dataService.getRows();
 		$scope.groups = [];		
@@ -115,7 +139,7 @@ spaceBlocker.controller('tableCtrl', ['$scope', 'dataService', 'timeService', fu
 		fileInputCSV.addEventListener('change', function (e) {
 
 			var new_rows = [];
-			
+
 			// parse as CSV
 			var file = e.target.files[0];
 			var csvParser = new SimpleExcel.Parser.CSV();
@@ -125,6 +149,7 @@ spaceBlocker.controller('tableCtrl', ['$scope', 'dataService', 'timeService', fu
 				
 				// draw HTML table based on sheet data
 				var sheet = csvParser.getSheet();
+
 				
 				// Populate the rowCollection
 				sheet.forEach(function (el, i) {
