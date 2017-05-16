@@ -39,7 +39,7 @@
                        <div class='col-sm-3'>Desks</div> 
                     </div>
                     <div ng-class='activeDate==rowCollection[row].formattedDate ? "row lecture-item highlighted" : "row lecture-item"' 
-                        ng-repeat="row in module.rowIds" ng-click="alert(rowCollection[row].time)">
+                        ng-repeat="row in module.rowIds" ng-click="selectedRow(row)">
                        <div class='col-sm-3'>{{rowCollection[row].date}}</div>
                        <div class='col-sm-3'>{{rowCollection[row].time}}</div> 
                        <div class='col-sm-3'>{{rowCollection[row].duration/60}} hour(s)</div> 

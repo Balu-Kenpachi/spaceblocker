@@ -194,7 +194,7 @@ spaceBlocker.factory("timeService", function() {
 	}
 
 	var o = {
-		time: new Date(),
+		time: new Date(1496293639599),
 		timeline: getDates( new Date(), (new Date()).addDays(10) ).map(function(d){ return d.getTime() })
 	}
 

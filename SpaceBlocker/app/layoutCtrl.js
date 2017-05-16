@@ -31,9 +31,8 @@ spaceBlocker.controller('layoutCtrl', ['$scope', 'dataService', 'timeService', f
 				$scope.deskArray.push(parseInt(row.desks));
 				$scope.totaldesks=$scope.totaldesks+parseInt(row.desks);
 			}
-			console.log($scope.totaldesks);
-			fillSVGElements($scope.totaldesks);
 		});
+		fillSVGElements($scope.totaldesks);
 
 	}
 

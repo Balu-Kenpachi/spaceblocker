@@ -19,6 +19,16 @@ spaceBlocker.controller('sliderCtrl', ['$scope', '$filter', 'timeService', funct
 		$scope.$apply();
 	}
 
+	var updateSliderValue =function(){
+		$scope.slider_translate.value=timeService.getTime();
+		console.log(timeService.getTime());
+		$scope.$apply();
+
+	}
+
+
+	timeService.registerObserverCallback(updateSliderValue);
+
 	timeService.registerSliderObserverCallback(updateSlider);
 
 }]);

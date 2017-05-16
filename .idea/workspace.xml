@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28f5fdc9-895d-4484-bd1d-14bf5cf626bf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpaceBlocker/app/layoutCtrl.js" afterPath="$PROJECT_DIR$/SpaceBlocker/app/layoutCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpaceBlocker/app/services.js" afterPath="$PROJECT_DIR$/SpaceBlocker/app/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpaceBlocker/app/sliderCtrl.js" afterPath="$PROJECT_DIR$/SpaceBlocker/app/sliderCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpaceBlocker/app/tableCtrl.js" afterPath="$PROJECT_DIR$/SpaceBlocker/app/tableCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpaceBlocker/app/templates/tablePane.html" afterPath="$PROJECT_DIR$/SpaceBlocker/app/templates/tablePane.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/SDE3_1stFloor.svg" afterPath="$PROJECT_DIR$/assets/images/SDE3_1stFloor.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,12 +21,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="tablePane.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tablePane.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/templates/tablePane.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
-              <folding />
+            <state relative-caret-position="588">
+              <caret line="40" column="79" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="79" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#uib-accordion-group#0;n#uib-accordion#0;n#uib-accordion-group#0;n#uib-accordion#0;n#section#2;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,28 +36,8 @@
       <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="295">
               <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ui-layout.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/ui-layout.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-504">
-              <caret line="69" column="24" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fileBrowseButton.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/fileBrowseButton.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -66,17 +46,17 @@
       <file leaf-file-name="tableCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/tableCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="671">
+              <caret line="191" column="4" lean-forward="false" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="52" />
               <folding>
                 <element signature="e#302#683#0" expanded="false" />
-                <element signature="e#711#819#0" expanded="false" />
-                <element signature="e#913#1324#0" expanded="false" />
-                <element signature="e#1437#1599#0" expanded="false" />
-                <element signature="e#1714#2791#0" expanded="false" />
-                <element signature="e#2820#2868#0" expanded="false" />
-                <element signature="e#3927#4048#0" expanded="false" />
-                <element signature="e#4116#4177#0" expanded="false" />
+                <element signature="e#709#817#0" expanded="false" />
+                <element signature="e#911#1322#0" expanded="false" />
+                <element signature="e#1435#1597#0" expanded="false" />
+                <element signature="e#1712#2789#0" expanded="false" />
+                <element signature="e#3061#3985#0" expanded="false" />
+                <element signature="e#4083#4204#0" expanded="false" />
+                <element signature="e#4272#4333#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -85,12 +65,12 @@
       <file leaf-file-name="layoutCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/layoutCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="76" column="38" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="76" selection-end-column="38" />
+            <state relative-caret-position="342">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="e#251#318#0" expanded="false" />
                 <element signature="e#349#420#0" expanded="false" />
-                <element signature="e#927#1207#0" expanded="false" />
+                <element signature="e#891#1171#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -116,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2173">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="441">
+              <caret line="118" column="13" lean-forward="true" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
               <folding>
                 <element signature="e#289#20055#0" expanded="false" />
               </folding>
@@ -128,11 +108,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="graphCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/graphCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-409">
+              <caret line="0" column="66" lean-forward="false" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="483">
+              <caret line="93" column="77" lean-forward="false" selection-start-line="93" selection-start-column="55" selection-end-line="93" selection-end-column="77" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -140,6 +130,16 @@
                 <element signature="n#style#0;n#object#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sliderCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/sliderCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -232,11 +232,12 @@
         <option value="$PROJECT_DIR$/assets/images/SDE3_2ndFloor.svg" />
         <option value="$PROJECT_DIR$/SpaceBlocker/app/app.js" />
         <option value="$PROJECT_DIR$/assets/js/simple-excel.js" />
-        <option value="$PROJECT_DIR$/SpaceBlocker/app/tableCtrl.js" />
-        <option value="$PROJECT_DIR$/SpaceBlocker/app/services.js" />
-        <option value="$PROJECT_DIR$/SpaceBlocker/app/layoutCtrl.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/SpaceBlocker/app/templates/tablePane.html" />
+        <option value="$PROJECT_DIR$/SpaceBlocker/app/layoutCtrl.js" />
+        <option value="$PROJECT_DIR$/SpaceBlocker/app/tableCtrl.js" />
+        <option value="$PROJECT_DIR$/SpaceBlocker/app/services.js" />
+        <option value="$PROJECT_DIR$/SpaceBlocker/app/sliderCtrl.js" />
       </list>
     </option>
   </component>
@@ -582,15 +583,15 @@
       <workItem from="1494574338987" duration="8787000" />
       <workItem from="1494813838390" duration="2295000" />
       <workItem from="1494828947715" duration="12611000" />
-      <workItem from="1494899124086" duration="4360000" />
+      <workItem from="1494899124086" duration="10826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350797000" />
+    <option name="totallyTimeSpent" value="357263000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-9" width="1938" height="1098" extended-state="0" />
+    <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -639,7 +640,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="42" />
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -785,14 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/graphCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="66" lean-forward="false" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/data/DataBase.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -854,14 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/sliderCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/exportToXLS.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -886,31 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/tableCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="e#302#683#0" expanded="false" />
-            <element signature="e#711#819#0" expanded="false" />
-            <element signature="e#913#1324#0" expanded="false" />
-            <element signature="e#1437#1599#0" expanded="false" />
-            <element signature="e#1714#2791#0" expanded="false" />
-            <element signature="e#2820#2868#0" expanded="false" />
-            <element signature="e#3927#4048#0" expanded="false" />
-            <element signature="e#4116#4177#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/fileBrowseButton.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/SDE3_2ndFloor.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -924,18 +884,6 @@
         <state relative-caret-position="253">
           <caret line="750" column="24" lean-forward="true" selection-start-line="750" selection-start-column="24" selection-end-line="750" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/layoutCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="76" column="38" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="76" selection-end-column="38" />
-          <folding>
-            <element signature="e#251#318#0" expanded="false" />
-            <element signature="e#349#420#0" expanded="false" />
-            <element signature="e#927#1207#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -955,28 +903,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/fileBrowseButton.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="295">
           <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/services.js">
+    <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/layoutCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2173">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="342">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <element signature="e#289#20055#0" expanded="false" />
+            <element signature="e#251#318#0" expanded="false" />
+            <element signature="e#349#420#0" expanded="false" />
+            <element signature="e#891#1171#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="483">
+          <caret line="93" column="77" lean-forward="false" selection-start-line="93" selection-start-column="55" selection-end-line="93" selection-end-column="77" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -987,11 +945,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/tableCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="191" column="4" lean-forward="false" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="52" />
+          <folding>
+            <element signature="e#302#683#0" expanded="false" />
+            <element signature="e#709#817#0" expanded="false" />
+            <element signature="e#911#1322#0" expanded="false" />
+            <element signature="e#1435#1597#0" expanded="false" />
+            <element signature="e#1712#2789#0" expanded="false" />
+            <element signature="e#3061#3985#0" expanded="false" />
+            <element signature="e#4083#4204#0" expanded="false" />
+            <element signature="e#4272#4333#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/sliderCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/templates/tablePane.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+        <state relative-caret-position="588">
+          <caret line="40" column="79" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#uib-accordion-group#0;n#uib-accordion#0;n#uib-accordion-group#0;n#uib-accordion#0;n#section#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/graphCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-409">
+          <caret line="0" column="66" lean-forward="false" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="66" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpaceBlocker/app/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="118" column="13" lean-forward="true" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
+          <folding>
+            <element signature="e#289#20055#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

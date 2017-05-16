@@ -25,8 +25,6 @@ spaceBlocker.controller('tableCtrl', ['$scope', 'dataService', 'timeService', fu
 		});
 	});
 
-
-
 	var init = function(){
 		$scope.rowCollection = dataService.getRows();
 		$scope.groups = [];		
@@ -124,6 +122,11 @@ spaceBlocker.controller('tableCtrl', ['$scope', 'dataService', 'timeService', fu
 		$scope.activeDate = timeService.getTime()
 	}
 
+	var selectedRow = function(row){
+		console.log($scope.rowCollection[row].formattedDate);
+		timeService.setTime($scope.rowCollection[row].formattedDate);
+	}
+
 	$scope.importFromCSV = function() {
 
 		$(document).on('click', '#btnImport', function(e){
@@ -184,6 +187,7 @@ spaceBlocker.controller('tableCtrl', ['$scope', 'dataService', 'timeService', fu
 
 	$scope.init = init;
 	$scope.highlight = highlight;
+	$scope.selectedRow=selectedRow;
 	dataService.registerObserverCallback(init);
 	timeService.registerObserverCallback(highlight);
 
