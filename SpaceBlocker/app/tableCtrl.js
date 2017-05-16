@@ -4,6 +4,7 @@ spaceBlocker.controller('tableCtrl', ['$scope', 'dataService', 'timeService', fu
 	$scope.groups = undefined;
 	$scope.activeDate = undefined;
 
+	// To load the table during loading of the page
 	$( document ).ready(function() {
 
 		$.ajax({
@@ -20,8 +21,6 @@ spaceBlocker.controller('tableCtrl', ['$scope', 'dataService', 'timeService', fu
 					return elements;
 				});
 				dataService.setRows(new_rows);
-
-
 			}
 		});
 	});

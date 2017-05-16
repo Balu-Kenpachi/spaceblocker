@@ -20,7 +20,7 @@
           <uib-accordion-group is-open="group.isOpen" ng-repeat="group in groups">
             
             <uib-accordion-heading>
-              <i class="glyphicon-plus"></i> Year: {{ group.name }} [ {{ group.students }} students ] 
+              <i class="glyphicon-plus"></i> Year: {{ group.name }}
               <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': group.isOpen, 'glyphicon-chevron-right': !group.isOpen}"></i>
             </uib-accordion-heading>
 
@@ -28,7 +28,7 @@
 
                 <uib-accordion-group is-open="mod.isOpen" ng-repeat="module in group.modules">
 
-                    <uib-accordion-heading><i class="glyphicon-plus"></i> {{ module.name }}  
+                    <uib-accordion-heading><i class="glyphicon-plus"></i> {{ module.name }} [ {{ group.students }} students ]
                         <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': mod.isOpen, 'glyphicon-chevron-right': !mod.isOpen}"></i>
                     </uib-accordion-heading>
 

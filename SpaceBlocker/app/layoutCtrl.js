@@ -37,12 +37,7 @@ spaceBlocker.controller('layoutCtrl', ['$scope', 'dataService', 'timeService', f
 
 	}
 
-
-
 	$scope.floorList = dataService.getFloors();
-
-
-
 
 
 	function getSubDocument(embedding_element) {
@@ -68,18 +63,28 @@ spaceBlocker.controller('layoutCtrl', ['$scope', 'dataService', 'timeService', f
 	    {
 		    var subdoc = getSubDocument(elms[i])
 
-		    if (subdoc)
+		    if (subdoc )
 		    {
 			    for(i=1;i<=156;i++){
-			       subdoc.getElementById(i).setAttribute("stroke", "red");
-			       subdoc.getElementById(i).setAttribute("fill", "none");
-			    }
-
-		    	for(i=1;i<=desks;i++){
-				    subdoc.getElementById(i).setAttribute("stroke", "lime");
+			    	if(subdoc.getElementById(i)==null){
+					    return;
+				    }
+				    subdoc.getElementById(i).setAttribute("stroke", "red");
 				    subdoc.getElementById(i).setAttribute("fill", "none");
 
 			    }
+
+		    	for(i=1;i<=desks;i++){
+
+				    if(subdoc.getElementById(i)==null){
+					    return;
+				    }
+				    subdoc.getElementById(i).setAttribute("stroke", "lime");
+				    subdoc.getElementById(i).setAttribute("fill", "none");
+			    }
+		    }
+		    else{
+		    	return;
 		    }
 
 
