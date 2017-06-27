@@ -10,19 +10,25 @@
         <!-- stylesheet -->
         <link rel="stylesheet" href="assets/css/menu.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://rawgithub.com/angular-ui/ui-layout/v1.0.5/ui-layout.css">
+        <!--<link rel="stylesheet" href="https://rawgithub.com/angular-ui/ui-layout/v1.0.5/ui-layout.css">-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.3/nv.d3.min.css"/>
-        <!--<link rel="stylesheet" href="assets/css/ui-layout.css">-->
+        <link rel="stylesheet" href="assets/css/ui-layout.css">
         <link rel="stylesheet" href="assets/css/fileBrowseButton.css">
         <link rel="stylesheet" href="assets/css/table.css">
         <link rel="stylesheet" href="assets/css/slider.css">
         <link rel="stylesheet" href="assets/css/app.css">
+        <link rel="stylesheet" href="assets/css/graph.css">
+        <link rel="stylesheet" href="assets/css/layout.css">
 
 
         <!-- jquery -->
         <script type="text/javascript" src="assets/js/jquery/jquery.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+        <!-- D3 -->
+        <script src="http://d3js.org/d3.v3.min.js"></script>
 
     </head>
 
@@ -44,57 +50,51 @@
             </div>
         </nav>
 
-        <div ui-layout id="layout" style="margin-top:50px" ng-cloak>
-            
-            <div ui-layout="{ flow : 'row'}" disableToggle="false">
-                
-                <div ui-layout-container size="85%">
-                    
-                    <div ui-layout="{flow : 'column'}" disableToggle="false">
 
-                        <div class="pane" ui-layout-container id="Table">
-                            <ng-include src="'SpaceBlocker/app/templates/tablePane.html'"></ng-include>
-                        </div>
 
-                        <div class="pane" ui-layout-container id="LayoutPane" >
-                            <div ng-controller="layoutCtrl">
+        <div ui-layout="{ flow : 'row' , dividerSize : 12 , disableToggle : true}" style="margin-top:50px" ng-cloak >
 
-                                <div style="position:relative" >
+            <div ui-layout-container size="90%">
 
-                                    <object ng-repeat="floor in floorList"  class="emb"  data="{{floor.floorImage}}" style="position:relative;min-height: 50px; height:100/{{floorList.length}}%;width:100%" type="image/svg+xml"></object>
+                <div ui-layout="{flow : 'column' , dividerSize : 12 , disableToggle : true }" disableToggle="false">
 
-                                </div>
-                                <div >
-                                    <!--<ul ng-repeat="desk in deskArray">-->
-                                        <!--<li>desksRequired: {{ desk }}</li>-->
-                                    <!--</ul>-->
-                                    <!--<p>sliderValue: {{ activeDate }}</p>-->
-                                    <!--<p>totalDesks: {{ totaldesks }}</p>-->
+                    <div  ui-layout-container class="pane" id="Table">
+                        <ng-include src="'SpaceBlocker/app/templates/tablePane.html'"></ng-include>
+                    </div>
 
-                                </div>
+                    <div  ui-layout-container class="pane" id="LayoutPane" >
+                        <div ng-controller="layoutCtrl">
+
+                            <!--<div style="position:relative" >-->
+
+                            <!--<object ng-repeat="floor in floorList"  class="emb"  data="{{floor.floorImage}}" style="position:relative;min-height: 50px; height:100/{{floorList.length}}%;width:100%" type="image/svg+xml"></object>-->
+
+                            <!--</div>-->
+                            <div id="d3svg">
+                                <div class="svg-holder" id="svg1"></div>
+                                <div class="svg-holder" id="svg2"></div>
+                                <div class="svg-holder" id="svg3"></div>
+
+
+
                             </div>
                         </div>
+                    </div>
 
-                        <div class="pane" ui-layout-container id="GraphPane">
-                            <div ng-controller="graphCtrl">
-
-                                <nvd3 options="options" data="data" api="api"></nvd3>
-                            </div>
-                        </div>
-
+                    <div  ui-layout-container class="pane" id="GraphPane">
+                        <ng-include src="'SpaceBlocker/app/templates/graph.html'"></ng-include>
                     </div>
 
                 </div>
 
-                <div class="pane" ui-layout-container id="TimeSliderPane">
-                    <div  ng-controller="sliderCtrl" >
-                        <article>
+            </div>
 
+            <div  ui-layout-container resizable  = false id="TimeSliderPane">
+                <div  ng-controller="sliderCtrl" >
+                    <article>
+                        <rzslider rz-slider-model="slider_translate.value"  rz-slider-options="slider_translate.options"></rzslider>
+                    </article>
 
-                            <rzslider rz-slider-model="slider_translate.value"  rz-slider-options="slider_translate.options"></rzslider>
-                        </article>
-
-                    </div>
                 </div>
             </div>
         </div>
@@ -140,6 +140,7 @@
 
         <!--  nvd3 -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
         <script src="assets/js/nv.d3.js"></script>
         <script src="assets/js/angular-nvd3.js"></script>
 

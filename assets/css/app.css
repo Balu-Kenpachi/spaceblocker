@@ -27,7 +27,7 @@ a:focus{
 
 .panel-heading{
 	border-radius: 0px;
-	padding: 10px;
+	padding: 5px;
 }
 
 .lecture-item{
@@ -40,4 +40,14 @@ a:focus{
 
 .lecture-item:hover{
 	background: #ccc;
+}
+
+.svg-holder{
+	display: inline-block;
+	/*float: left;*/
+	min-width: 100px;
+	width: 400px;
+	max-width: 800px;
+	margin-right: 10px;
+
 }

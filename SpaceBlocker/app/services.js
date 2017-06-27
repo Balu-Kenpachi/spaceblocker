@@ -88,6 +88,8 @@ spaceBlocker.factory("dataService", ['timeService', function(timeService) {
 		return o.chartData;
 	}
 
+
+
 	p.setRows = function(rows){
 
 		o.rows = rows;
@@ -109,9 +111,11 @@ spaceBlocker.factory("dataService", ['timeService', function(timeService) {
 			newdate.setDate(date[0]);
 			newdate.setMonth(date[1]-1);
 			newdate.setYear(date[2]);
-			/*newdate.setHours(time[0]);
-			newdate.setMinutes(time[1]);
-			newdate.setSeconds(time[2]);*/
+			// newdate.setHours(time[0]);
+			// newdate.setMinutes(time[1]);
+			// newdate.setSeconds(time[2]);
+
+
 
 			if(i==0){
 				highest = newdate; 
@@ -125,6 +129,8 @@ spaceBlocker.factory("dataService", ['timeService', function(timeService) {
 			}
 
 			row.formattedDate = newdate.getTime();
+
+
 
 			// add values for chart
 			if(chart[row.year] == undefined){
@@ -190,12 +196,18 @@ spaceBlocker.factory("timeService", function() {
 	        dateArray.push( new Date (currentDate) )
 	        currentDate = currentDate.addDays(1);
 	    }
+
+
+
+
 	    return dateArray;
 	}
 
+
+
 	var o = {
 		time: new Date(1496293639599),
-		timeline: getDates( new Date(), (new Date()).addDays(10) ).map(function(d){ return d.getTime() })
+		timeline: getDates( new Date(), (new Date()).addDays(1) ).map(function(d){ return d.getTime() })
 	}
 
 	var p = {};

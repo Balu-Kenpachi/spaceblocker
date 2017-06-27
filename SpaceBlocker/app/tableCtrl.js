@@ -15,11 +15,13 @@ spaceBlocker.controller('tableCtrl', ['$scope', 'dataService', 'timeService', fu
 				var new_rows = [];
 				var sample=data;
 				var arr= sample.split("\n");
+
 				arr=arr.map(function(value){
 					var elements=value.split(',');
 					new_rows.push(generateObject(elements));
 					return elements;
 				});
+
 				dataService.setRows(new_rows);
 			}
 		});
