@@ -109,20 +109,7 @@ spaceBlocker.controller('layoutCtrl', ['$scope', 'dataService', 'timeService', f
 	var insertSVG =function (){
 
 
-		d3.xml("assets/images/SDE3_2ndFloor.svg").mimeType("image/svg+xml").get(function(error, xml) {
-			if (error) throw error;
 
-			// document.getElementById("#d3svg").appendChild(xml.documentElement);
-			// document.body.appendChild(xml.documentElement);
-
-
-
-			var element =  document.getElementById("svg1");
-			element.appendChild(xml.documentElement);
-
-			// var d3Element =d3.select("#d3svg").insert("svg",xml.documentElement);
-
-		});
 
 		// d3.xml("assets/images/SDE3_6thFloor.svg").mimeType("image/svg+xml").get(function(error, xml) {
 		// 	if (error) throw error;
@@ -137,31 +124,38 @@ spaceBlocker.controller('layoutCtrl', ['$scope', 'dataService', 'timeService', f
 		//
 		// });
 		//
-		d3.xml("assets/images/SDE3_6thFloor.svg").mimeType("image/svg+xml").get(function(error, xml) {
+
+
+		// d3.xml("assets/images/SDE3_2ndFloor.svg").mimeType("image/svg+xml").get(function(error, xml) {
+		// 	if (error) throw error;
+		//
+		// 	var element =  document.getElementById("svg2");
+		// 	element.appendChild(xml.documentElement);
+		//
+		// });
+		//
+		// d3.xml("assets/images/SDE3_6thFloor.svg").mimeType("image/svg+xml").get(function(error, xml) {
+		// 	if (error) throw error;
+		//
+		// 	var element =  document.getElementById("svg3");
+		// 	element.appendChild(xml.documentElement);
+		//
+		// });
+		//
+		// d3.xml("assets/images/SDE3_1stFloor.svg").mimeType("image/svg+xml").get(function(error, xml) {
+		// 	if (error) throw error;
+		//
+		// 	var element =  document.getElementById("svg4");
+		// 	element.appendChild(xml.documentElement);
+		//
+		// });
+
+
+		d3.xml("assets/images/Overall1.svg").mimeType("image/svg+xml").get(function(error, xml) {
 			if (error) throw error;
 
-			// document.getElementById("#d3svg").appendChild(xml.documentElement);
-			// document.body.appendChild(xml.documentElement);
-
-
-
-			var element =  document.getElementById("svg2");
+			var element =  document.getElementById("svg1");
 			element.appendChild(xml.documentElement);
-
-			// var d3Element =d3.select("#d3svg").insert("svg",xml.documentElement);
-
-		});
-
-		d3.xml("assets/images/SDE3_1stFloor.svg").mimeType("image/svg+xml").get(function(error, xml) {
-			if (error) throw error;
-
-			// document.getElementById("#d3svg").appendChild(xml.documentElement);
-			// document.body.appendChild(xml.documentElement);
-
-			var element =  document.getElementById("svg3");
-			element.appendChild(xml.documentElement);
-
-			// var d3Element =d3.select("#d3svg").insert("svg",xml.documentElement);
 
 		});
 

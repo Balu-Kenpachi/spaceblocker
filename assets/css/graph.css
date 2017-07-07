@@ -1,4 +1,4 @@
-.svg-container {
+.stacked-container {
     /*display: inline-block;*/
     /*position: relative;*/
     /*width: 100%;*/
@@ -49,7 +49,7 @@
     font-weight: normal;
 }
 
-.svg-container .mouseover {
+.stacked-container .mouseover {
     opacity: 0.7;
 }
 
@@ -64,4 +64,81 @@
     text-align: right;
     padding: 3px 5px 3px 5px;
 
+}
+
+.Pie-container {
+    /*display: inline-block;*/
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*padding-bottom: 100%; !* aspect ratio *!*/
+    /*vertical-align: top;*/
+    /*overflow: hidden;*/
+}
+
+.svg-pie-chart {
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*top: 10px;*/
+    /*left: 0;*/
+}
+
+.arc text {
+    font: 10px sans-serif;
+    text-anchor: middle;
+}
+
+.arc path {
+    stroke: #fff;
+}
+
+
+/* ...........  Gridster CSS Parameters
+
+ */
+
+ul {
+    list-style: none;
+}
+.box {
+    height: 100%;
+    /* border: 1px solid #ccc; */
+    background-color: #fff;
+}
+.box-header {
+    height: 30px;
+    background-color: #eee;
+    /* padding: 0 30px 0 10px; */
+    border-bottom: 1px solid #ccc;
+    cursor: move;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+}
+.box-header h3 {
+    width: 100%;
+    margin: 5px;
+    display: inline-block;
+}
+.box-content {
+    height: 100%;
+    padding: 0px;
+}
+.box-header-btns {
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    position: absolute;
+}
+a {
+    color: #ccc;
+}
+form {
+    margin-bottom: 0;
+}
+.gridster {
+    border: 1px solid #ccc;
+}
+.gridster-item {
+    border: 1px solid #ccc;
 }

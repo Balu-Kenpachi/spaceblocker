@@ -134,6 +134,7 @@ spaceBlocker.controller('tableCtrl', ['$scope', 'dataService', 'timeService', fu
 		$(document).on('click', '#btnImport', function(e){
 			e.preventDefault();
 			var file = $(this).parent().parent().parent().find('#fileImport');
+			console.log(file);
 			file.trigger('click');
 		});
 

@@ -26,6 +26,18 @@ spaceBlocker.controller('sliderCtrl', ['$scope', '$filter', 'timeService', funct
 
 	}
 
+	$scope.timeline = timeService.getTimeline();
+
+
+
+	var playAnimation=function(){
+
+		for(i=$scope.timeline[0];i<=$scope.timeline[1];i=i+86400000){
+
+		}
+
+	}
+
 
 	timeService.registerObserverCallback(updateSliderValue);
 

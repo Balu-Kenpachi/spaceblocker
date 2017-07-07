@@ -1,149 +1,151 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
 
-        <title>SpaceBlocker</title>
+    <title>SpaceBlocker</title>
 
-        <!-- stylesheet -->
-        <link rel="stylesheet" href="assets/css/menu.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <!--<link rel="stylesheet" href="https://rawgithub.com/angular-ui/ui-layout/v1.0.5/ui-layout.css">-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.3/nv.d3.min.css"/>
-        <link rel="stylesheet" href="assets/css/ui-layout.css">
-        <link rel="stylesheet" href="assets/css/fileBrowseButton.css">
-        <link rel="stylesheet" href="assets/css/table.css">
-        <link rel="stylesheet" href="assets/css/slider.css">
-        <link rel="stylesheet" href="assets/css/app.css">
-        <link rel="stylesheet" href="assets/css/graph.css">
-        <link rel="stylesheet" href="assets/css/layout.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.3/nv.d3.min.css"/>
+    <link rel="stylesheet" href="assets/css/fileBrowseButton.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/graph.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/ui-layout.css">
 
 
-        <!-- jquery -->
-        <script type="text/javascript" src="assets/js/jquery/jquery.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-        <!-- D3 -->
-        <script src="http://d3js.org/d3.v3.min.js"></script>
-
-    </head>
-
-    <body  ng-app="spaceBlocker">
-
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="scsopecollapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#" >SpaceBlocker </a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-
-                </div>
-            </div>
-        </nav>
+    <!-- jquery & Bootstrap-->
+    <script type="text/javascript" src="assets/js/jquery/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
 
-        <div ui-layout="{ flow : 'row' , dividerSize : 12 , disableToggle : true}" style="margin-top:50px" ng-cloak >
+    <!-- D3 -->
+    <script src="http://d3js.org/d3.v3.min.js"></script>
 
-            <div ui-layout-container size="90%">
+</head>
 
-                <div ui-layout="{flow : 'column' , dividerSize : 12 , disableToggle : true }" disableToggle="false">
-
-                    <div  ui-layout-container class="pane" id="Table">
-                        <ng-include src="'SpaceBlocker/app/templates/tablePane.html'"></ng-include>
-                    </div>
-
-                    <div  ui-layout-container class="pane" id="LayoutPane" >
-                        <div ng-controller="layoutCtrl">
-
-                            <!--<div style="position:relative" >-->
-
-                            <!--<object ng-repeat="floor in floorList"  class="emb"  data="{{floor.floorImage}}" style="position:relative;min-height: 50px; height:100/{{floorList.length}}%;width:100%" type="image/svg+xml"></object>-->
-
-                            <!--</div>-->
-                            <div id="d3svg">
-                                <div class="svg-holder" id="svg1"></div>
-                                <div class="svg-holder" id="svg2"></div>
-                                <div class="svg-holder" id="svg3"></div>
+<body  ng-app="spaceBlocker">
 
 
 
-                            </div>
-                        </div>
-                    </div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="scsopecollapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" >SpaceBlocker </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
 
-                    <div  ui-layout-container class="pane" id="GraphPane">
-                        <ng-include src="'SpaceBlocker/app/templates/graph.html'"></ng-include>
-                    </div>
+        </div>
+    </div>
+</nav>
 
-                </div>
 
+
+
+
+<div ui-layout="{flow : 'row' , dividerSize : 0 , disableToggle : true }" style="margin-top:50px" ng-cloak >
+    <div ui-layout-container >
+
+        <div ui-layout="{flow : 'column' , dividerSize : 12 , disableToggle : true }" disableToggle="false" style="overflow: hidden; border-bottom: 5px solid #C9C5C5;">
+
+            <div  ui-layout-container class="pane" id="Table">
+                <ng-include src="'SpaceBlocker/app/templates/tablePane.html'"></ng-include>
             </div>
 
-            <div  ui-layout-container resizable  = false id="TimeSliderPane">
-                <div  ng-controller="sliderCtrl" >
-                    <article>
-                        <rzslider rz-slider-model="slider_translate.value"  rz-slider-options="slider_translate.options"></rzslider>
-                    </article>
+            <div  ui-layout-container class="pane" id="LayoutPane" >
+                <div ng-controller="layoutCtrl" class="svg-holder" id="svg1">
 
+                    <!--<div style="position:relative" >-->
+
+                    <!--<object ng-repeat="floor in floorList"  class="emb"  data="{{floor.floorImage}}" style="position:relative;min-height: 50px; height:100/{{floorList.length}}%;width:100%" type="image/svg+xml"></object>-->
+
+                    <!--</div>-->
+                    <!--<div id="d3svg">-->
+                    <!--<div class="svg-holder" id="svg1"></div>-->
+                    <!--</div>-->
                 </div>
             </div>
+
+            <div  ui-layout-container class="pane" id="GraphPane" >
+                <ng-include src="'SpaceBlocker/app/templates/graph.html'"></ng-include>
+            </div>
+
         </div>
 
+    </div>
 
-        <!-- angularJs -->
-        <!--<script type="application/javascript" src="assets/js/angular/angular.js"></script>-->
-        <!--<script type="text/javascript" src="assets/js/angular/angular-sanitize.min.js"></script>-->
-        <!--<script type="application/javascript" src="assets/js/angular/angular-route.min.js"></script>-->
-        <!--<script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>-->
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
+    <div  ui-layout-container size="100px" class="pane" id="TimeSliderPane">
+        <div  ng-controller="sliderCtrl" >
+            <!--<button type="button" id="btnAnimation" ng-click="" class="btn btn-sm ">Play <i class="glyphicon glyphicon-play-circle"></i></button>-->
+            <article>
+                <rzslider rz-slider-model="slider_translate.value"  rz-slider-options="slider_translate.options"></rzslider>
+            </article>
 
-        <!-- UI-Bootstrap -->
-        <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js"></script>
-
-        <!-- menu -->
-        <script type="text/javascript" src="SpaceBlocker/menu/menu.js"></script>
-
-        <!-- app -->
-        <script src="SpaceBlocker/app/app.js"></script>
-        <script src="SpaceBlocker/app/services.js"></script>
-        <script src="SpaceBlocker/app/sliderCtrl.js"></script>
-        <script src="SpaceBlocker/app/graphCtrl.js"></script>
-        <script src="SpaceBlocker/app/layoutCtrl.js"></script>
-        <script src="SpaceBlocker/app/tableCtrl.js"></script>
-
-        <!-- Ui-layout -->
-        <script type="application/javascript" src="https://rawgithub.com/angular-ui/ui-layout/v1.0.5/ui-layout.min.js"></script>
+        </div>
+    </div>
+</div>
 
 
-        <!-- Export to XLS -->
-        <script src="assets/js/exportToXLS.js"></script>
+<!-- angularJs -->
+<!--<script type="application/javascript" src="assets/js/angular/angular.js"></script>-->
+<!--<script type="text/javascript" src="assets/js/angular/angular-sanitize.min.js"></script>-->
+<!--<script type="application/javascript" src="assets/js/angular/angular-route.min.js"></script>-->
+<!--<script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>-->
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
 
-        <!--  Read from excel -->
-        <script src="assets/js/simple-excel.js"></script>
+<!-- UI-Bootstrap -->
+<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js"></script>
 
 
-        <!--  Slider -->
-        <script src="assets/js/rzslider.js"></script>
 
-        <!--  Smart Table -->
-        <script src="assets/js/smart-table.debug.js"></script>
+<!-- app -->
+<script src="SpaceBlocker/app/app.js"></script>
+<script src="SpaceBlocker/app/services.js"></script>
+<script src="SpaceBlocker/app/sliderCtrl.js"></script>
+<script src="SpaceBlocker/app/graphCtrl.js"></script>
+<script src="SpaceBlocker/app/layoutCtrl.js"></script>
+<script src="SpaceBlocker/app/tableCtrl.js"></script>
 
-        <!--  nvd3 -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
-        <script src="assets/js/nv.d3.js"></script>
-        <script src="assets/js/angular-nvd3.js"></script>
 
-    </body>
+<!-- Ui-layout -->
+<script type="application/javascript" src="https://rawgithub.com/angular-ui/ui-layout/v1.0.5/ui-layout.min.js"></script>
+
+<!-- Export to XLS -->
+<script src="assets/js/exportToXLS.js"></script>
+
+<!--  Read from excel -->
+<script src="assets/js/simple-excel.js"></script>
+
+<!--  Slider -->
+<script src="assets/js/rzslider.js"></script>
+
+<!--  Smart Table -->
+<script src="assets/js/smart-table.debug.js"></script>
+
+<!--  nvd3 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
+<script src="assets/js/nv.d3.js"></script>
+<script src="assets/js/angular-nvd3.js"></script>
+
+
+<!--  Gridster -->
+<script src="https://raw.githack.com/ManifestWebDesign/angular-gridster/v0.13.5/dist/angular-gridster.min.js"></script>
+
+
+
+</body>
 
 </html>

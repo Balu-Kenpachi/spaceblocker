@@ -5,6 +5,8 @@
 $(document).on('click', '#btnExport', function(e){
 	e.preventDefault();
 
+	console.log("Button to download to excel clicked");
+
 	//getting data from our table
 	var data_type = 'data:application/vnd.ms-excel';
 	var table_div = document.getElementById('smartTable');

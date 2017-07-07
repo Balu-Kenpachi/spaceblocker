@@ -1,11 +1,35 @@
-spaceBlocker.controller('graphCtrl', ['dataService', 'timeService', '$scope',function(dataService, timeService, $scope) {
+spaceBlocker.controller('graphCtrl', ['dataService', 'timeService','graphService', '$scope','$timeout',function(dataService, timeService,graphService, $scope,$timeout) {
 
 	$scope.width = $("#GraphPane").width();
+	$scope.height = $("#GraphPane").height();
+
+
+	/*setInterval(function(){
+
+		// $scope.width = $("#GraphPane").width();
+		// $scope.height = $("#GraphPane").height();
+		console.log($scope.width);
+		}, 100);*/
+
+	$scope.$watch(function(){
+		return $('#GraphPane').width();
+	}, function (newValue, oldValue, scope) {
+
+		$scope.width = $("#GraphPane").width();
+
+		$scope.$broadcast('resize');
+
+		// $scope.height = $("#GraphPane").height();
+
+		// drawPieChart($scope.activeDate,$scope.data);
+		// drawStackedAreaChart($scope.rowData,$scope.data);
+
+	}, true);
 
 	$scope.options = {
 		chart: {
 			type: 'stackedAreaChart',
-			width: $scope.width,
+			width: 500,
 			height: 450,
 			margin : {
 				top: 20,
@@ -61,7 +85,6 @@ spaceBlocker.controller('graphCtrl', ['dataService', 'timeService', '$scope',fun
 	$scope.timeline = timeService.getTimeline();
 
 
-
 	//// normal
 
 	function drawGraph(){
@@ -111,37 +134,49 @@ spaceBlocker.controller('graphCtrl', ['dataService', 'timeService', '$scope',fun
 		// $scope.api.refresh();
 
 		$scope.timeline = timeService.getTimeline();
-		drawGraph();
-		drawStackedAreaChart($scope.rowData,$scope.data);
+		// drawGraph();
+		// drawStackedAreaChart($scope.rowData,$scope.data);
+		// drawPieChart($scope.activeDate,$scope.data);
 		$scope.$apply();
-
-
 
 	}
 
 	var timeChanged = function(){
 		$scope.activeDate = timeService.getTime();
-		showTooltip($scope.activeDate );
+		// drawPieChart($scope.activeDate,$scope.data);
+		// showTooltip($scope.activeDate );
 
 	}
 
+	//Stacked Area Chart
 
 
-
+	d3.select("div#graphDiv")
+		.append("div")
+		.classed("stacked-container", true) //container class to make it responsive
 
 	function drawStackedAreaChart(rowData,data){
 
 		"use strict";
+
+		var cont=d3.select("div.stacked-container");
+		cont.html("")
+			.append("svg")
+		//responsive SVG needs these 2 attributes and no width and height attr
+			.attr("preserveAspectRatio", "xMinYMin meet")
+			.attr("viewBox", "0 0 450 260")
+			//class to make it responsive
+			.classed("svg-content-responsive", true);
+
+
+
 		var margin = {top: 20, right: 60, bottom: 30, left: 40},
 			width = 480 - margin.left - margin.right,
 			height = 270 - margin.top - margin.bottom;
 
-
-
 		var x_extent=d3.extent(rowData,function(d){
 			return d['formattedDate'];
 		});
-
 
 		var x=d3.time.scale()
 			.range([margin.left,width])
@@ -165,20 +200,11 @@ spaceBlocker.controller('graphCtrl', ['dataService', 'timeService', '$scope',fun
 
 		var color = d3.scale.category20();
 
-
-
-		d3.select("div#graphDiv")
-			.append("div")
-			.classed("svg-container", true) //container class to make it responsive
-			.append("svg")
-			//responsive SVG needs these 2 attributes and no width and height attr
-			.attr("preserveAspectRatio", "xMinYMin meet")
-			.attr("viewBox", "0 0 450 450")
-			//class to make it responsive
-			.classed("svg-content-responsive", true);
-
-
 		var svg=d3.select(".svg-content-responsive");
+
+		var rem=d3.select("div.tooltip");
+		rem.remove();
+
 		var div=d3.select("html").append("div").attr("class", "tooltip").style("opacity", 0);
 
 
@@ -288,10 +314,6 @@ spaceBlocker.controller('graphCtrl', ['dataService', 'timeService', '$scope',fun
 		});
 
 
-
-
-
-
 		var legend = svg.selectAll(".legend")
 			.data(color.domain().slice().reverse())
 			.enter().append("g")
@@ -311,17 +333,84 @@ spaceBlocker.controller('graphCtrl', ['dataService', 'timeService', '$scope',fun
 			.style("text-anchor", "end")
 			.text(function(d) { return d; });
 
+	}
+	// Pie Chart
+
+	d3.select("div#graphDiv")
+		.append("div")
+		.classed("Pie-container", true)
+
+	function drawPieChart(timeline,data){
+
+		"use strict";
+		var pieMargin = {top: 20, right: 60, bottom: 30, left: 40},
+			pieWidth = $scope.width - pieMargin.left - pieMargin.right,
+			pieHeight = $scope.height/2 - pieMargin.top - pieMargin.bottom,
+			radius = Math.min(pieWidth, pieHeight) / 2;
+
+
+		var arc = d3.svg.arc()
+			.outerRadius(radius - 10)
+			.innerRadius(radius - 80);
+
+		var color = d3.scale.category20();
+		color.domain(data.map(function(arr){return arr['key'];}));
+
+		var pie = d3.layout.pie()
+			.sort(null)
+			.value(function(d) { return d.students; });
 
 
 
 
 
+		var div=d3.select("div.Pie-container");
+
+
+		 div.html("");
+
+
+
+		var svg=div.append("svg")
+			.classed("svg-pie-chart", true)
+			.attr("width", pieWidth)
+			.attr("height", pieHeight)
+			.append("g")
+			.attr("transform", "translate(" + pieWidth / 2 + "," + pieHeight / 2 + ")");
+
+
+		var pies = pie(color.domain().map(function(year,i) {
+			return {
+				year: year,
+				students: +data[i]['values'].map(function(d) {
+
+					return (d[0]==timeline)? +d[1] :0;
+				}).reduce(function(a,b){
+					return a + b;
+				},0)
+			};
+		}));
+
+
+
+		var g = svg.selectAll(".arc")
+			.data(pies)
+			.enter().append("g")
+			.attr("class", "arc");
+
+		g.append("path")
+			.attr("d", arc)
+			.style("fill", function(d) { return color(d.data.year); });
+
+		g.append("text")
+			.attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+			.attr("dy", ".35em")
+			.text(function(d) { return d.data.year; });
 
 
 
 
 	}
-
 
 	function showTooltip(){
 
@@ -368,19 +457,120 @@ spaceBlocker.controller('graphCtrl', ['dataService', 'timeService', '$scope',fun
 
 	}
 
-
-
-
-
-
-
-
-
-
-
-
 	dataService.registerGraphObserverCallback(updateGraph);
 	timeService.registerObserverCallback(timeChanged);
+
+
+
+
+	// Gridster Code
+
+
+	$scope.gridsterOptions = {
+
+		minRows: 2, // the minimum height of the grid, in rows
+		columns: 4, // the width of the grid, in columns
+		colWidth: 'auto', // can be an integer or 'auto'.  'auto' uses the pixel width of the element divided by 'columns'
+		margins: [10, 10], // the pixel distance between each widget
+		mobileModeEnabled: false,
+		draggable: {
+			handle: 'h3'
+		},
+		resizable: {
+			enabled: true,
+			handles: ['n', 'e', 's', 'w', 'ne', 'se', 'sw', 'nw'],
+
+			// optional callback fired when resize is started
+			start: function(event, $element, widget) {},
+
+			// optional callback fired when item is resized,
+			resize: function(event, $element, widget) {
+				if (widget.chart.api) widget.chart.api.update();
+			},
+
+			// optional callback fired when item is finished resizing
+			stop: function(event, $element, widget) {
+				$timeout(function(){
+					if (widget.chart.api) widget.chart.api.update();
+				},400)
+			}
+		},
+	};
+
+	$scope.dashboard = {
+		widgets: [
+			{
+			col: 0,
+			row: 0,
+			sizeY: 2,
+			sizeX: 2,
+			name: "Discrete Bar Chart",
+			chart: {
+				options: graphService.discreteBarChart.options(),
+				data: graphService.discreteBarChart.data(),
+				api: {}
+			}
+		},
+		{
+			col: 2,
+			row: 0,
+			sizeY: 2,
+			sizeX: 2,
+			name: "Candlestick Bar Chart",
+			chart: {
+				options: graphService.candlestickBarChart.options(),
+				data: graphService.candlestickBarChart.data(),
+				api: {}
+			}
+		},
+			{
+			col: 0,
+			row: 2,
+			sizeY: 2,
+			sizeX: 2,
+			name: "Line Chart",
+			chart: {
+				options: graphService.lineChart.options(),
+				data: graphService.lineChart.data(),
+				api: {}
+			}
+		},
+			{
+			col: 4,
+			row: 2,
+			sizeY: 2,
+			sizeX: 2,
+			name: "Pie Chart",
+			chart: {
+				options: graphService.pieChart.options(),
+				data: graphService.pieChart.data(),
+				api: {}
+			}
+		}]
+	};
+
+	// We want to manually handle `window.resize` event in each directive.
+	// So that we emulate `resize` event using $broadcast method and internally subscribe to this event in each directive
+	// Define event handler
+	$scope.events = {
+		resize: function(e, scope){
+			$timeout(function(){
+				scope.api.update()
+			},200)
+		}
+	};
+	angular.element(window).on('resize', function(e){
+		$scope.$broadcast('resize');
+	});
+
+	// We want to hide the charts until the grid will be created and all widths and heights will be defined.
+	// So that use `visible` property in config attribute
+	$scope.config = {
+		visible: false
+	};
+	$timeout(function(){
+		$scope.config.visible = true;
+	}, 200);
 
 
 

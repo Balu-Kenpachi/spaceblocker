@@ -62,7 +62,8 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #999 0%, #eee 100%);
+    background: #C9C5C5;
+    /*background: linear-gradient(to bottom, #999 0%, #eee 100%);*/
     overflow-y: hidden;
 }
 .ui-layout-column > .ui-splitbar{
@@ -70,7 +71,8 @@
     cursor: col-resize;
     -webkit-flex-direction: column;
     flex-direction: column;
-    background: linear-gradient(to right, #999 0%, #eee 100%);
+    background: #C9C5C5;
+    /*background: linear-gradient(to right, #999 0%, #eee 100%);*/
     overflow-x: hidden;
 }
 
